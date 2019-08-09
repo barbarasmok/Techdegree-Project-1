@@ -44,6 +44,8 @@ a:hover {
     display: block;
     margin-right: auto;
     color: white;
+    font-size: 22px;
+    text-transform: uppercase;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,6 +54,7 @@ a:hover {
 .nav a {
   transition: all .5s;
   color: white;
+  text-transform: uppercase;
 }
 .nav a:hover {
   color: #F3DA00;
