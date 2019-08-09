@@ -166,6 +166,8 @@ ul.skills {
   margin-bottom: 50px;
 }
 
+/* Image float and clear reference from: https://www.w3schools.com/css/css_float.asp */
+
 .about-image {
   margin: 0 50px 0 100px;
   width: 300px;
