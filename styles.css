@@ -99,13 +99,13 @@ header .profile-image:hover {
 
 .card {
   margin: 30px;
-  padding: 20px 40px 40px;
+  padding: 60px 20px 60px 20px;
   max-width: 500px;
   text-align: center;
   background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all .5s;
+  border-bottom: 10px solid #fff;
+  border-radius: 10px;
+  
 }
 
 .card:hover {
@@ -143,7 +143,7 @@ ul.skills {
 
 .about {
   background: #F3DA00;
-  margin: 50px 0 100px 0;
+  margin: 100px 0 100px 0px;
   padding: 20px 40px 50px;
   text-align: center;
   height: auto;
