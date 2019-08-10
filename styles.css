@@ -169,11 +169,10 @@ ul.skills {
 
 
 .experience {
-  margin-top: 30px;
-  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: left;
-  height: 400px;
-  max-width: 700px;
+  max-width: 1024px;
 }
 
 .experience h2 {
@@ -196,7 +195,7 @@ ul.skills {
 .experience p {
   text-align: left;
   line-height: 2px;
-  padding: 5px 10px;
+  padding: 2px 10px;
 }
 
 
