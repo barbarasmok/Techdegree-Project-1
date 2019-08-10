@@ -171,11 +171,28 @@ ul.skills {
 .experience {
   margin-left: auto;
   margin-right: auto;
+  text-align: right;
+  max-width: 1024px;
+  border-right: 4px solid #222;
+  margin-right: 50px;
+}
+
+.education {
+  margin-left: auto;
+  margin-right: auto;
   text-align: left;
   max-width: 1024px;
 }
 
 .experience h2 {
+  margin-top: 50px;
+  padding: 5px 0;
+  text-align: right;
+  font-size: 40px;
+  margin-right: 50px;
+}
+
+.education h2 {
   margin-top: 50px;
   padding: 5px 0;
   text-align: left;
@@ -186,6 +203,17 @@ ul.skills {
   border-radius: 5px;
   display: inline-block;
   background: #F3DA00;
+  text-align: right;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+  margin-right: 50px;
+
+}
+
+.education h3 {
+  border-radius: 5px;
+  display: inline-block;
+  background: #F3DA00;
   text-align: left;
   padding: 10px 10px 10px 10px;
   font-size: 16px;
@@ -193,6 +221,13 @@ ul.skills {
 }
 
 .experience p {
+  text-align: right;
+  line-height: 2px;
+  padding: 2px 10px;
+  margin-right: 50px;
+}
+
+.education p {
   text-align: left;
   line-height: 2px;
   padding: 2px 10px;
@@ -200,25 +235,45 @@ ul.skills {
 
 
 
-ul.lista {
+ul.lista-experience {
+  text-align: right;
+  padding: 5px 50px;
+
+}
+
+ul.lista-education {
   text-align: left;
   padding: 5px 50px;
 
 }
 
-.lista li {
+.lista-experience li {
   color: rgb(29, 29, 29);
   padding: 5px 10px;
+  text-align: right;
+  
 }
 
+.lista-education li {
+  color: rgb(29, 29, 29);
+  padding: 5px 10px;
+  
+}
 
-ul.skills-resume {
+ul.skills-resume-experience {
+  padding: 0;
+  text-align: right;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+ul.skills-resume-education {
   padding: 0;
   text-align: left;
   margin-bottom: 50px;
 }
 
-.skills-resume li {
+.skills-resume-experience li {
   border-radius: 5px;
   display: inline-block;
   background: #F3DA00;
@@ -228,7 +283,22 @@ ul.skills-resume {
   font-size: 14px;
 }
 
-.skills-resume li:nth-child(odd) {
+.skills-resume-education li {
+  border-radius: 5px;
+  display: inline-block;
+  background: #F3DA00;
+  color: rgb(29, 29, 29);
+  padding: 5px 10px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+.skills-resume-experience li:nth-child(odd) {
+  background: rgb(29, 29, 29);
+  color: white;
+}
+
+.skills-resume-education li:nth-child(odd) {
   background: rgb(29, 29, 29);
   color: white;
 }
