@@ -99,9 +99,6 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 
-.header-resume .profile-image:hover {
-  transform: none;
-}
 
 .tag {
   background-color: #efefef;
@@ -146,11 +143,16 @@ header .profile-image:hover {
 
 .resume-image {
   margin-top: 50px;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   border: 3px solid white;
   transition: none;
+}
+
+.resume-image:hover {
+  transform: scale(1.1) rotate(360deg);
+  margin-bottom: 30px;
 }
 
 .card {
