@@ -394,11 +394,18 @@ h3 {
 
 } 
 
-.references p {
+.card a {
   text-align: center;
-  line-height: 0px;
-  padding: 0;
-  margin-bottom: 40px;
+  line-height: 2px;
+  padding: 2px 0px;
+  color:#222;
+}
+
+.card a:hover {
+  text-align: center;
+  line-height: 2px;
+  padding: 2px 0px;
+  color:#F3DA00;
 }
 
 
