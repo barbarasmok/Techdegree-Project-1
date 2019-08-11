@@ -15,10 +15,10 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #222;
 }
 a:hover {
-  color: #6633ff;
+  color: #F3DA00;
 }
 
 /* Section Styles */
@@ -31,6 +31,7 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -47,15 +48,18 @@ a:hover {
     font-size: 22px;
     text-transform: uppercase;
 }
+
 .nav li {
   padding: 5px 10px 10px 10px;
   
 }
+
 .nav a {
   transition: all .5s;
   color: white;
   text-transform: uppercase;
 }
+
 .nav a:hover {
   color: #F3DA00;
 }
@@ -68,7 +72,6 @@ header {
   padding-top: 50px;
 
 }
-
 
 .header-resume {
   text-align: center;
@@ -212,7 +215,7 @@ ul.skills {
 .about P.blocktext {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1024px;
+  max-width: 728px;
   line-height: 25px;
   margin-bottom: 30px;
 }
@@ -374,8 +377,6 @@ h3 {
 
 }
 
-
-
 .references {
   padding: 0px;
   border-radius: 0px;
@@ -386,7 +387,7 @@ h3 {
   max-height: 200px;
 } 
 
-.references h1 {
+.references h2 {
   color: rgb(29, 29, 29);
   padding: 0;
   text-transform: uppercase;
@@ -407,7 +408,6 @@ h3 {
   padding: 2px 0px;
   color:#F3DA00;
 }
-
 
 
 footer {
